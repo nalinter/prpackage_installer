@@ -1,0 +1,24 @@
+{
+  "askashya" : {
+        "env_url" : "http://askashya.rtp.raleigh.ibm.com:8888/federal" ,
+        "credentials" : {
+            "grant_type":"password",
+            "username":"admin",
+            "password":"asdf",
+            "client_id":"sugar",
+            "platform":"base",
+            "client_secret":""
+        }
+    },
+    "int" : {
+        "env_url" : "https://ibmatlas-int01.sugarondemand.com" ,
+        "credentials" : {
+            "grant_type":"password",
+            "username":"Atlas_users",
+            "password":"Atlas_users00",
+            "client_id":"sugar",
+            "platform":"base",
+            "client_secret":""
+        }
+    }
+}
