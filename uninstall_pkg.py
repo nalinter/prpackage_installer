@@ -8,6 +8,7 @@ def uninstall_pkg_api(url , access_token ,id_hash) :
    headers = {
       'OAuth-Token': access_token
    }
+   print(id_hash)
    url_path = url + '/' + path
    response = requests.request("GET", url_path, headers=headers, data = payload)
    #response_json = response.json()
