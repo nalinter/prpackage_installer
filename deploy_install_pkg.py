@@ -19,10 +19,10 @@ if __name__ == '__main__':
     print("PR ID:", package_pr_id)
     
     #if you want to test it from jenkins use line number :20 and comment line numbers :  22 
-    #package_file_path = "/var/www/html/prpackages/module_"+ package_pr_id + "_modules_1.zip"
+    package_file_path = "/var/www/html/prpackages/module_"+ package_pr_id + "_modules_1.zip"
 
     #if you want to test it from local use line number :25 and comment line number : 22
-    package_file_path = os.getcwd() + package_pr_id +".zip"
+    #package_file_path = os.getcwd() + package_pr_id +".zip"
     json_path =  os.getcwd() + "/environments.json"
     json_open = open(json_path)
     data_json = json.load(json_open)
