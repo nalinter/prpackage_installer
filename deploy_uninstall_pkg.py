@@ -15,10 +15,10 @@ if __name__ == '__main__':
     pr_number = sys.argv[2]
 
 #if you want to test it from jenkins use line numbers :18 and comment line numbers : 21
-pkg_name =  "module_"+ pr_number + "_modules_1"
+#pkg_name =  "module_"+ pr_number + "_modules_1"
 
 #if you want to test it from local use line numbers : 21 and comment line numbers : 18
-#pkg_name = pr_number
+pkg_name = pr_number
 
 
 json_path = os.getcwd() + "/environments.json"
