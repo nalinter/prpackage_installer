@@ -1,4 +1,15 @@
 {
+  "environment_name" : {
+        "env_url" : "environment url" ,
+        "credentials" : { (the json data given for generating the OAuth Token)
+            "grant_type":"password",
+            "username":"admin",
+            "password":"admin",
+            "client_id":"sugar",
+            "platform":"base",
+            "client_secret":""
+        }
+    },
   "askashya" : {
         "env_url" : "http://askashya.rtp.raleigh.ibm.com:8888/federal" ,
         "credentials" : {
