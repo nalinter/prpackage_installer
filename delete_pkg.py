@@ -11,6 +11,7 @@ def delete_pkg_api(url , access_token , unfile_hash) :
    url_path = url + '/' + path
    response_status_code = None
    response = requests.request("DELETE", url_path, headers=headers, data = payload) 
+   print(response)
    response_json = response.json()
    if response.status_code == 200 :
        print("Success ,Package has been Deleted")

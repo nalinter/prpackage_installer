@@ -15,6 +15,7 @@ def upload_package(url , access_code ,pkg_path) :
    file_install_hash = None
    unfile_hash = None
    response = requests.request("POST", url_path, headers=headers, data = payload, files = files)
+   print(response)
    response_json = response.json()
    if response.status_code == 200 :
       print("Success ,Uploaded the Package")

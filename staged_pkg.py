@@ -12,6 +12,7 @@ def staged_pkg_api(url , access_token ,pkg_name) :
     unFile_hash = None
     url_path = url + '/' + path
     response = requests.request("GET", url_path, headers=headers, data = payload)
+    print(response)
     response_json = response.json()
     response_list = response_json["packages"]
     length = len(response_list)
