@@ -14,6 +14,7 @@ def generate_access_token(url ,payload):
    response = requests.request("POST", url_path, headers=headers, data = payload)
    print(response)
    response_json = response.json()
+   #print(response.json())
    if response.status_code == 200 :
       print("Success ,Access Code Generated", response_json['access_token'])
       return response_json['access_token']
