@@ -10,6 +10,7 @@ def install_package(url , access_code , file_install_hash , unfile_hash) :
     }
     url_path = url + '/' + path
     response = requests.request("GET", url_path, headers=headers, data = payload)
+    print(response)
     if response.status_code == 200 :
       print("Success ,Package has been installed")
       return response.status_code

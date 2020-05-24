@@ -29,6 +29,9 @@ envi_info = data_json[envi]
 envi_url = envi_info["env_url"]
 envi_payload = envi_info["credentials"]
 
+print("Environment : ", envi)
+print("PR ID : ", pr_number)
+
 access_response_token = generate_access_token(envi_url ,envi_payload)
 
 if access_response_token == None :
