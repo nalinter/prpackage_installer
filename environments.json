@@ -10,6 +10,17 @@
             "client_secret":""
         }
     },
+   "integration" : {
+        "env_url" : "http://ddywdcdevin01.sl.bluecloud.ibm.com:8888/atlassbx" ,
+        "credentials" : {
+            "grant_type":"password",
+            "username":"admin",
+            "password":"asdf",
+            "client_id":"sugar",
+            "platform":"base",
+            "client_secret":""
+        }
+    },
     "atlasint" : {
         "env_url" : "https://ibmatlas-int01.sugarondemand.com" ,
         "credentials" : {
