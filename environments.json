@@ -11,7 +11,7 @@
         }
     },
    "integration" : {
-        "env_url" : "http://ddywdcdevin01.sl.bluecloud.ibm.com:8888/atlassbx" ,
+        "env_url" : "http://soc.rtp.raleigh.ibm.com/atlas" ,
         "credentials" : {
             "grant_type":"password",
             "username":"admin",
