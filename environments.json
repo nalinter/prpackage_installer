@@ -21,7 +21,7 @@
             "client_secret":""
         }
     },
-    "atlassnx" : {
+    "atlassbx01" : {
         "env_url" : "https://ibmatlas-sbx01.sugarondemand.com/" ,
         "credentials" : {
             "grant_type":"password",
