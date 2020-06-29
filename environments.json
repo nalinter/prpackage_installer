@@ -21,30 +21,8 @@
             "client_secret":""
         }
     },
-    "atlasint" : {
-        "env_url" : "https://ibmatlas-int01.sugarondemand.com" ,
-        "credentials" : {
-            "grant_type":"password",
-            "username":"Atlas_users",
-            "password":"Atlas_users00",
-            "client_id":"sugar",
-            "platform":"base",
-            "client_secret":""
-        }
-    },
-    "bpint" : {
-        "env_url" : "https://ibmbp-int.sugarondemand.com" ,
-        "credentials" : {
-            "grant_type":"password",
-            "username":"Atlas_users",
-            "password":"Atlas_users00",
-            "client_id":"sugar",
-            "platform":"base",
-            "client_secret":""
-        }
-    },
-   "bpsbx" : {
-        "env_url" : "https://ibmbp-sbx.sugarondemand.com" ,
+    "atlassnx" : {
+        "env_url" : "https://ibmatlas-sbx01.sugarondemand.com/" ,
         "credentials" : {
             "grant_type":"password",
             "username":"Atlas_users",
