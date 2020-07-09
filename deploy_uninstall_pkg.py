@@ -40,7 +40,7 @@ if access_response_token == None :
 pkg_id = installed_pkg_api(envi_url ,access_response_token ,pkg_name)
 
 if pkg_id == None :
-    print("Package doesn't exist")
+    print("Package doesn't exist in the environment, will install the package")
     exit()
 else :
     print("Package already installed.. Deleting the Package")
